@@ -1,0 +1,99 @@
+* {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 69px;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid seashell;
+    align-items: center; 
+    padding: 10px;
+}
+
+section {
+    margin: 100px 20px 20px;
+}
+
+#banner {
+    align-content: center;
+    background-color: black;
+}
+
+#nav-list {
+    display: inline-flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.nav-item {
+    list-style-type: none;
+    padding: 10px; 
+}
+
+.nav-item a {
+    font-size: 16px;
+    text-decoration: underline;
+    color: seashell;
+}
+
+.nav-item a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#logo {
+    justify-content: left;
+    margin: 10px;
+    height: 50px;   
+}   
+
+#mission {
+    background-image: url("/resources/images/img-mission-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 1200px;  
+    align-content: center;
+    margin: 20px auto;
+}
+
+.product {
+    width: 300px;
+    height: 200px;
+}
+
+.inner-container {
+    margin: 20px;
+    text-align: center;
+}
+
+.inner-container h4 {
+    margin-top: 10px;
+    color: seashell;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #mission {
+        width: 100%;
+        height: auto;
+    }
+}
