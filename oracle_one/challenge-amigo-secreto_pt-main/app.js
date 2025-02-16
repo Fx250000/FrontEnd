@@ -30,7 +30,7 @@ const sortearAmigo = () => {
         resultado.innerText = '';  
         return;
     }
-    // Sorteia um amigo da lista e remove da lista
+    // Sorteia um amigo da lista e remove o nome para evitar ser sorteado de novo.
     resultado.innerText = `O amigo secreto escolhido foi: ${amigoSorteado.innerText}`;
     listaAmigos.removeChild(amigoSorteado); 
 }

@@ -1,32 +1,45 @@
-# Oracle ONE Desafio do Amigo Secreto
+# Oracle One - FrontEnd Challenges
 
-## 📝 Visão Geral
+Bem-vindo(a) ao repositório de soluções para os desafios front-end do programa **Oracle One**!  
+Aqui você encontrará projetos desenvolvidos durante a formação, com foco em práticas de desenvolvimento web, acessibilidade e boas práticas de código.
 
-Este repositório contém projetos e exercícios realizados como parte do programa Oracle Next Education (ONE), focado em desenvolvimento FrontEnd. Os projetos demonstram conceitos principais de desenvolvimento web, incluindo HTML, CSS, JavaScript e design responsivo.
+---
 
-## 📂 Estrutura
+## 🚀 Sobre o Projeto
 
-### Projeto: Amigo Secreto
+Este repositório reúne os desafios práticos propostos pelo programa **Oracle One**, uma iniciativa da Oracle em parceria com a Alura para capacitação em tecnologia. 
 
-#### Funcionalidades do Código:
+## 🛠 Tecnologias Utilizadas
 
-1. **Adicionar Amigo:**
-   - Verifica se o campo de texto está vazio antes de adicionar um amigo à lista.
-   - Recebe o nome digitado pelo usuário e cria um novo item na lista (`<li>`).
-   - Adiciona o nome do amigo à lista exibida na página.
-   - Limpa automaticamente o campo de entrada após adicionar o amigo.
+- **HTML5** | **CSS3** | **JavaScript** (ES6+)
 
-2. **Sortear Amigo:**
-   - Verifica se há amigos na lista antes de realizar o sorteio.
-   - Seleciona um amigo aleatoriamente da lista de itens utilizando `Math.random()`.
-   - Exibe o nome do amigo sorteado na tela.
-   - Remove o amigo sorteado da lista, garantindo que ele não seja sorteado novamente.
+## 📝 Como Executar Localmente
 
-## 🤝 Contribuições
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/Fx250000/FrontEnd.git
 
-Este repositório está aberto para contribuições e melhorias. Fique à vontade para fazer fork, criar pull requests ou abrir issues com sugestões ou dúvidas.
+    Acesse a pasta do desafio:
+    bash
+    Copy
 
-## 🔗 Contato
+    cd FrontEnd/oracle_one/desafio-1
+
+    Abra o projeto:
+
+        Execute o arquivo index.html em um navegador moderno (Chrome, Firefox, Edge).
+
+📌 Notas Importantes
+
+    Acessibilidade: Todos os projetos seguem as diretrizes WCAG 2.1.
+
+    Boas Práticas: Código semântico, organização de pastas e comentários explicativos.
+
+    Contribuições: Sugestões são bem-vindas! Abra uma issue ou pull request.
+
+📄 Licença
+
+Este projeto está sob a licença MIT.
+✉️ Contato
 
 GitHub: [Fx250000](https://github.com/Fx250000)
-
